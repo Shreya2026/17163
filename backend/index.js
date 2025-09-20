@@ -5,7 +5,7 @@ import connectToMongo from "./connect.js";
 import urlRoute from "./routes/url.route.js";
 
 const app = express();
-const loggingMiddleware = require('../LoggingMiddleware/loggingMiddleware'); 
+
 // Enable CORS for all origins (you can restrict this in production)
 app.use(cors({
     origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
